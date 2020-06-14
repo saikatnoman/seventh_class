@@ -1,0 +1,74 @@
+.font{
+	font-family: verdana;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+.table tr:nth-child(even) {
+  background-color: #eee;
+}
+.table tr:nth-child(odd) {
+ background-color: #fff;
+}
+.table th {
+  background-color: black;
+  color: white;
+}
+.col th{
+	background-color: orange;
+  	color: white;
+}
+.row th{
+	background-color: orange;
+  	color: white;
+}
+.header{
+	background-color: red;
+	min-height: 80px; 
+}
+.wrapper{
+	overflow: hidden;
+}
+.blog{
+	background-color: green;
+	min-height: 150px; 
+	width: 70%;
+	float: left;
+}
+.contact{
+	background-color: blue;
+	min-height: 150px; 
+	width: 25%;
+	float: right;
+}
+.container{
+	overflow: hidden;
+}
+.box1{
+	background-color: purple;
+	min-height: 150px; 
+	width: 33.5%;
+	float: left;
+}
+.box2{
+	background-color: pink;
+	min-height: 150px; 
+	width: 33%;
+	float: left;
+}
+.box3{
+	background-color: cyan;
+	min-height: 150px; 
+	width: 33.5%;
+	float: left;
+}
+.footer{
+	background-color: black;
+	min-height: 80px;
+	/*clear: both;*/
+}
